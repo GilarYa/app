@@ -16,17 +16,16 @@ function userTable(jsonParse){
     let svgicon = svg.replace("#WARNA#", getRandomColorName());
     let jabat = jbt.replace("#col#", getRandomColorName());
     console.log(jabat);
-    row = rowtabel.replace("#_id#", element._id).
-        replace("#Username#", element.Username).
+    row = rowtabel.replace("#username#", element.Username).
         replace("#jbt#", jabat).
-        replace("#Email#", element.Email).
-        replace("#Location#", element.Location).
-        replace("#Orders#", element.Orders).
-        replace("#Lastorders#", element.Lastorders).
-        replace("#Totalspent#", element.Totalspent).
-        replace("#Sks#", element.Sks).
+        replace("#email#", element.Email).
+        replace("#location#", element.Location).
+        replace("#orders#", element.Orders).
+        replace("#lastorders#", element.Lastorders).
+        replace("#totalspent#", element.Totalspent).
+        replace("#sks#", element.Sks).
         replace("#SVG#", svgicon);
-    addInner("demo",row);
+        addInner("demo",row);
     });
 }
      

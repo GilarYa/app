@@ -10,6 +10,7 @@ export let rowtabel = ` <tr class="h-18 border-b border-coolGray-100">
     <div class="w-auto p-2">
       <p class="text-xs font-semibold text-coolGray-800">#username#</p>
       <p class="text-xs font-medium text-coolGray-500">#email#</p>
+      <p class="text-xs font-medium text-coolGray-500">#_id#</p>
     </div>
   </div>
 </th>

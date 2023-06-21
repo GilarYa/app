@@ -16,7 +16,8 @@ function userTable(jsonParse){
     let svgicon = svg.replace("#WARNA#", getRandomColorName());
     let jabat = jbt.replace("#col#", getRandomColorName());
     console.log(jabat);
-    row = rowtabel.replace("#username#", element.Username).
+    row = rowtabel.replace("#_id#", element._id).
+        replace("#username#", element.Username).
         replace("#jbt#", jabat).
         replace("#email#", element.Email).
         replace("#location#", element.Location).

@@ -1,0 +1,1 @@
+export let URLPenggajian = "https://web-rps.herokuapp.com/dashboard"
